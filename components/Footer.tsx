@@ -50,7 +50,7 @@ const Footer = () => {
                 className="text-gray-300 text-sm font-light leading-relaxed"
                 style={{ fontFamily: 'Nunito, sans-serif' }}
               >
-                Your gateway to Chitwan's wilderness. Where luxury meets adventure in the heart of Nepal's most celebrated national park.
+                Your gateway to Chitwan&apos;s wilderness. Where luxury meets adventure in the heart of Nepal&apos;s most celebrated national park.
               </p>
 
               {/* Social Media Icons */}

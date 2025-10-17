@@ -21,7 +21,7 @@ export default function SpecialOffersSection() {
             className="text-gray-600 text-sm max-w-3xl mx-auto font-light leading-relaxed"
             style={{ fontFamily: 'Nunito, sans-serif' }}
           >
-            Make your Chitwan adventure even more memorable with our specially curated packages. From seasonal wildlife experiences to cultural immersion offers, we've crafted deals that bring you closer to nature.
+            Make your Chitwan adventure even more memorable with our specially curated packages. From seasonal wildlife experiences to cultural immersion offers, we&apos;ve crafted deals that bring you closer to nature.
           </p>
         </div>
 

@@ -56,7 +56,7 @@ const CallToAction = () => {
                 className="text-white text-sm font-semibold leading-relaxed mb-6"
                 style={{ fontFamily: "Nunito, sans-serif" }}
               >
-                This is more than a getaway—it's a journey into the heart of Nepal's 
+                This is more than a getaway—it&apos;s a journey into the heart of Nepal&apos;s 
                 untamed wilderness. Where rhinos roam, tigers prowl, and every sunrise 
                 brings new wonder. Your Chitwan adventure begins the moment you book.
               </p>

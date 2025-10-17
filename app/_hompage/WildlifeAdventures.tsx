@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Heart, MapPin, Navigation } from "lucide-react";
+import { Heart, MapPin } from "lucide-react";
 
 interface WildlifeExperienceProps {
   image: string;
@@ -14,7 +14,6 @@ const WildlifeExperienceCard = ({
   image,
   title,
   details,
-  description,
   rating,
 }: WildlifeExperienceProps) => {
   return (
@@ -163,10 +162,10 @@ const WildlifeAdventures = () => {
                 className="text-white text-base font-light leading-relaxed mb-6 max-w-md"
                 style={{ fontFamily: "Inter, sans-serif" }}
               >
-                Chitwan isn't just a destination—it's a living sanctuary where endangered 
+                Chitwan isn&apos;t just a destination—it&apos;s a living sanctuary where endangered 
                 species roam free. From one-horned rhinos to Bengal tigers, sloth bears to 
-                gharial crocodiles, every safari reveals nature's raw magnificence. Let our 
-                certified guides unveil the jungle's secrets.
+                gharial crocodiles, every safari reveals nature&apos;s raw magnificence. Let our 
+                certified guides unveil the jungle&apos;s secrets.
               </p>
 
               <button

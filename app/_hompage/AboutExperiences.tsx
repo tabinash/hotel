@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import {
   ChevronDown,
   Binoculars,
@@ -9,9 +9,9 @@ import {
 } from "lucide-react";
 
 const AboutExperiences = () => {
-  const [checkIn, setCheckIn] = useState("10 Dec.");
-  const [checkOut, setCheckOut] = useState("15 Dec.");
-  const [guests, setGuests] = useState(1);
+  const checkIn= "10 Dec.";
+  const checkOut = "15 Dec.";
+  const guests = 1;
 
   return (
     <>

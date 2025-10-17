@@ -89,10 +89,10 @@ const NewsInsightsSection = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-normal text-black mb-6">
-            Insights & Updates from <span className="text-[#f46036]">Nepal's Digital Landscape</span>
+            Insights & Updates from <span className="text-[#f46036]">Nepal&apos;s Digital Landscape</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Stay updated with the latest trends, insights, and best practices in technology, business, and digital innovation from our expert team and Nepal's growing tech ecosystem.
+            Stay updated with the latest trends, insights, and best practices in technology, business, and digital innovation from our expert team and Nepal&apos;s growing tech ecosystem.
           </p>
         </div>
 
