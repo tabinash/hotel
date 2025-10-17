@@ -12,7 +12,7 @@ const rooms = [
       "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=500&auto=format&fit=crop&q=80",
     rating: 5,
     description:
-      "Wake up to a sea of emerald canopy stretching beyond your balcony. Handcrafted bamboo furnishings, warm tones, and large windows bring the jungle’s serenity inside. Perfect for travelers seeking intimacy with nature — without leaving comfort behind.",
+      "Wake up to a sea of emerald canopy stretching beyond your balcony. Handcrafted bamboo furnishings, warm tones, and large windows bring the jungle&apos;s serenity inside. Perfect for travelers seeking intimacy with nature — without leaving comfort behind.",
   },
   {
     title: "Riverside Deluxe Room",
@@ -24,7 +24,7 @@ const rooms = [
       "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=500&auto=format&fit=crop&q=80",
     rating: 5,
     description:
-      "Let the gentle flow of the Rapti River lull you to rest. These rooms open to soothing river breezes and golden sunsets that light up the water. Ideal for families or friends who want the essence of Chitwan’s calm in their stay.",
+      "Let the gentle flow of the Rapti River lull you to rest. These rooms open to soothing river breezes and golden sunsets that light up the water. Ideal for families or friends who want the essence of Chitwan&apos;s calm in their stay.",
   },
   {
     title: "Forest Retreat Cottage",
@@ -68,8 +68,8 @@ export default function RoomsSection() {
             className="text-gray-600 text-sm max-w-3xl mx-auto font-light leading-relaxed"
             style={{ fontFamily: "Nunito, sans-serif" }}
           >
-            When the day’s safaris end and the jungle quiets, find your calm at
-            Sphiron’s private retreats. Designed with natural textures, warm
+            When the day&apos;s safaris end and the jungle quiets, find your calm at
+            Sphiron&apos;s private retreats. Designed with natural textures, warm
             lighting, and panoramic views — each room is a cocoon of serenity
             where the rhythm of the wild hums softly beyond your balcony.
           </p>

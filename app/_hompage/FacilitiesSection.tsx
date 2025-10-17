@@ -1,73 +1,70 @@
+"use client";
 import { FaChevronRight } from "react-icons/fa";
 
 export default function FacilitiesSection() {
   return (
     <>
-      {/* Import Google Fonts - MATCHING TRAVEL SITE */}
+      {/* Fonts */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-      <link 
-        href="https://fonts.googleapis.com/css2?family=Marcellus&family=Nunito:wght@300;400;500;600;700&display=swap" 
-        rel="stylesheet" 
+      <link
+        href="https://fonts.googleapis.com/css2?family=Marcellus&family=Nunito:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
       />
 
       <section className="max-w-6xl mx-auto px-4 py-20 relative">
+        {/* Section Header */}
         <div className="text-left mb-16 flex items-center justify-between">
-          <h2 
+          <h2
             className="text-4xl font-normal"
-            style={{ fontFamily: 'Marcellus, serif' }}
+            style={{ fontFamily: "Marcellus, serif" }}
           >
-            <span className="text-amber-700">Comfort Meets </span>
-            <span className="text-gray-900">Wilderness</span>
+            <span className="text-amber-700">Stay Close </span>
+            <span className="text-gray-900">to Nature</span>
           </h2>
-          <button 
+          <button
             className="bg-amber-700 text-white px-6 py-3 rounded-full font-semibold hover:bg-amber-800 transition-all duration-300 flex items-center gap-2 text-sm"
-            style={{ fontFamily: 'Nunito, sans-serif' }}
+            style={{ fontFamily: "Nunito, sans-serif" }}
           >
-            View More <FaChevronRight className="w-4 h-4" />
+            Discover More <FaChevronRight className="w-4 h-4" />
           </button>
         </div>
 
-        <div className="space-y-12">
+        <div className="space-y-14">
           {/* Facility 1 */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <img
-              src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=500&auto=format&fit=crop&q=80"
-              alt="Wellness spa overlooking jungle"
-              className="rounded-3xl object-cover h-[300px] w-full"
+              src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&auto=format&fit=crop&q=80"
+              alt="Cozy cottage near jungle"
+              className="rounded-3xl object-cover h-[320px] w-full"
             />
             <div>
-              <div className="flex items-center gap-4 mb-3">
-                <span 
-                  className="text-2xl font-normal text-gray-900"
-                  style={{ fontFamily: 'Marcellus, serif' }}
-                >
-                  01
-                </span>
-                <span 
-                  className="text-amber-700 font-semibold text-sm"
-                  style={{ fontFamily: 'Nunito, sans-serif' }}
-                >
-                  Wellness
-                </span>
-              </div>
-              <h3 
-                className="text-2xl font-semibold mb-3"
-                style={{ fontFamily: 'Nunito, sans-serif' }}
+              <span
+                className="text-amber-700 font-semibold text-sm uppercase tracking-wider"
+                style={{ fontFamily: "Nunito, sans-serif" }}
               >
-                Jungle Spa & Wellness
+                01 • Accommodation
+              </span>
+              <h3
+                className="text-2xl font-semibold mt-3 mb-4"
+                style={{ fontFamily: "Marcellus, serif" }}
+              >
+                Cottage Rooms with a Jungle View
               </h3>
-              <p 
-                className="text-gray-700 mb-6 text-sm font-light leading-relaxed"
-                style={{ fontFamily: 'Nunito, sans-serif' }}
+              <p
+                className="text-gray-700 text-sm leading-relaxed font-light mb-6"
+                style={{ fontFamily: "Nunito, sans-serif" }}
               >
-                Soothe tired muscles after jungle treks with traditional Nepali massage therapies using organic herbs. Our open-air spa pavilion lets you unwind to the symphony of forest sounds and birdsong.
+                Wake up to the sound of birds and gentle rustling of the forest.
+                Our spacious cottages are built with natural textures, bamboo,
+                and earthy tones — blending comfort with the calm rhythm of
+                Chitwan&apos;s wilderness.
               </p>
-              <button 
+              <button
                 className="bg-amber-700 text-white px-6 py-3 rounded-full font-semibold hover:bg-amber-800 transition-all duration-300 flex items-center gap-2 text-sm"
-                style={{ fontFamily: 'Nunito, sans-serif' }}
+                style={{ fontFamily: "Nunito, sans-serif" }}
               >
-                Read More <FaChevronRight className="w-4 h-4" />
+                View Rooms <FaChevronRight className="w-4 h-4" />
               </button>
             </div>
           </div>
@@ -75,42 +72,37 @@ export default function FacilitiesSection() {
           {/* Facility 2 */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center md:flex-row-reverse">
             <img
-              src="https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?w=500&auto=format&fit=crop&q=80"
-              alt="Infinity pool with jungle views"
-              className="rounded-3xl object-cover h-[300px] w-full md:order-2"
+              src="https://images.unsplash.com/photo-1667659391380-23f357572f8d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpdHdhbiUyMG5hdGlvbmFsJTIwcGFyayUyMGRpbmluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=400"
+              alt="Dining area by the river"
+              className="rounded-3xl object-cover h-[320px] w-full md:order-2"
             />
             <div className="md:order-1">
-              <div className="flex items-center gap-4 mb-3">
-                <span 
-                  className="text-2xl font-normal text-gray-900"
-                  style={{ fontFamily: 'Marcellus, serif' }}
-                >
-                  02
-                </span>
-                <span 
-                  className="text-amber-700 font-semibold text-sm"
-                  style={{ fontFamily: 'Nunito, sans-serif' }}
-                >
-                  Recreation
-                </span>
-              </div>
-              <h3 
-                className="text-2xl font-semibold mb-3"
-                style={{ fontFamily: 'Nunito, sans-serif' }}
+              <span
+                className="text-amber-700 font-semibold text-sm uppercase tracking-wider"
+                style={{ fontFamily: "Nunito, sans-serif" }}
               >
-                Infinity Pool & Deck
+                02 • Dining
+              </span>
+              <h3
+                className="text-2xl font-semibold mt-3 mb-4"
+                style={{ fontFamily: "Marcellus, serif" }}
+              >
+                Riverside Dining with Local Flavors
               </h3>
-              <p 
-                className="text-gray-700 mb-6 text-sm font-light leading-relaxed"
-                style={{ fontFamily: 'Nunito, sans-serif' }}
+              <p
+                className="text-gray-700 text-sm leading-relaxed font-light mb-6"
+                style={{ fontFamily: "Nunito, sans-serif" }}
               >
-                Take a refreshing dip in our infinity pool with panoramic views of the Chitwan forest canopy. Watch the sunset paint the sky while spotted deer graze at the forest edge—pure tranquility after your safari adventures.
+                Enjoy Nepali and Tharu delicacies prepared with fresh local
+                ingredients. Whether it&apos;s breakfast by the Rapti River or a
+                candle-lit dinner under the stars, every meal is a celebration
+                of Chitwan&apos;s taste and tradition.
               </p>
-              <button 
+              <button
                 className="bg-amber-700 text-white px-6 py-3 rounded-full font-semibold hover:bg-amber-800 transition-all duration-300 flex items-center gap-2 text-sm"
-                style={{ fontFamily: 'Nunito, sans-serif' }}
+                style={{ fontFamily: "Nunito, sans-serif" }}
               >
-                Read More <FaChevronRight className="w-4 h-4" />
+                Explore Menu <FaChevronRight className="w-4 h-4" />
               </button>
             </div>
           </div>
@@ -118,45 +110,40 @@ export default function FacilitiesSection() {
           {/* Facility 3 */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <img
-              src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=500&auto=format&fit=crop&q=80"
-              alt="Restaurant with jungle ambiance"
-              className="rounded-3xl object-cover h-[300px] w-full"
+              src="https://images.unsplash.com/photo-1649744580493-c5d1cac78209?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2hpdHdhbiUyMG5hdGlvbmFsJTIwcGFyayUyMHN3aW1taW5nJTIwcG9vbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=400"
+              alt="Outdoor pool surrounded by greenery"
+              className="rounded-3xl object-cover h-[320px] w-full"
             />
             <div>
-              <div className="flex items-center gap-4 mb-3">
-                <span 
-                  className="text-2xl font-normal text-gray-900"
-                  style={{ fontFamily: 'Marcellus, serif' }}
-                >
-                  03
-                </span>
-                <span 
-                  className="text-amber-700 font-semibold text-sm"
-                  style={{ fontFamily: 'Nunito, sans-serif' }}
-                >
-                  Dining
-                </span>
-              </div>
-              <h3 
-                className="text-2xl font-semibold mb-3"
-                style={{ fontFamily: 'Nunito, sans-serif' }}
+              <span
+                className="text-amber-700 font-semibold text-sm uppercase tracking-wider"
+                style={{ fontFamily: "Nunito, sans-serif" }}
               >
-                Wild Harvest Restaurant
+                03 • Relaxation
+              </span>
+              <h3
+                className="text-2xl font-semibold mt-3 mb-4"
+                style={{ fontFamily: "Marcellus, serif" }}
+              >
+                Poolside Calm Amidst the Jungle
               </h3>
-              <p 
-                className="text-gray-700 mb-6 text-sm font-light leading-relaxed"
-                style={{ fontFamily: 'Nunito, sans-serif' }}
+              <p
+                className="text-gray-700 text-sm leading-relaxed font-light mb-6"
+                style={{ fontFamily: "Nunito, sans-serif" }}
               >
-                Savor authentic Tharu cuisine alongside international favorites, all prepared with locally sourced organic ingredients. Dine al fresco under the stars or in our elegant indoor pavilion with sweeping jungle views.
+                Dip into our crystal-clear pool surrounded by lush gardens and
+                chirping mynas. As the afternoon light softens, unwind with a
+                refreshing drink and the peaceful view of the forest canopy.
               </p>
-              <button 
+              <button
                 className="bg-amber-700 text-white px-6 py-3 rounded-full font-semibold hover:bg-amber-800 transition-all duration-300 flex items-center gap-2 text-sm"
-                style={{ fontFamily: 'Nunito, sans-serif' }}
+                style={{ fontFamily: "Nunito, sans-serif" }}
               >
                 Read More <FaChevronRight className="w-4 h-4" />
               </button>
             </div>
           </div>
+
         </div>
       </section>
     </>

@@ -50,7 +50,7 @@ const Hero = () => {
             className="text-5xl md:text-6xl lg:text-7xl font-normal mb-6 leading-tight"
             style={{ fontFamily: "Marcellus, serif" }}
           >
-            <span className="text-white">Experience Nature’s Serenity </span>
+            <span className="text-white">Experience Nature&apos;s Serenity </span>
             <br />
             <span className="text-amber-500">at River Edge Resort</span>
           </h1>

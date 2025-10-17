@@ -84,35 +84,63 @@ const WildlifeExperienceCard = ({
 };
 
 const WildlifeAdventures = () => {
-  const wildlifeExperiences = [
-    {
-      image:
-        "https://images.unsplash.com/photo-1549366021-9f761d450615?auto=format&fit=crop&w=500&q=80",
-      title: "Rhino Tracking Safari",
-      details: "( 4x4 Jeep • Early Morning )",
-      description:
-        "Venture into the grasslands at dawn to spot the majestic one-horned rhinoceros—Chitwan's most iconic resident. Our expert naturalists guide you through prime rhino habitat.",
-      rating: 5,
-    },
-    {
-      image:
-        "https://images.unsplash.com/photo-1502066604976-ff2dcc01675e?auto=format&fit=crop&w=500&q=80",
-      title: "Rapti River Canoe",
-      details: "( Traditional Dugout • Sunrise )",
-      description:
-        "Glide silently along the Rapti River as marsh mugger crocodiles bask on the banks and kingfishers dive for breakfast. A peaceful journey through wetland paradise.",
-      rating: 5,
-    },
-    {
-      image:
-        "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=500&q=80",
-      title: "Bengal Tiger Quest",
-      details: "( Full Day • Expert Tracker )",
-      description:
-        "Track the elusive Bengal tiger through sal forests and riverine corridors. While sightings aren't guaranteed, the thrill of the search reveals Chitwan's untamed wilderness.",
-      rating: 4,
-    },
-  ];
+const wildlifeExperiences = [
+  {
+    image:
+      "https://plus.unsplash.com/premium_photo-1664302689659-c5ce62589448?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2hpdHdhbiUyMG5hdGlvbmFsJTIwcGFyayUyMHJoaW5vfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=400",
+    title: "Rhino Tracking Safari",
+    details: "( 4x4 Jeep • Early Morning )",
+    description:
+      "Venture into the grasslands at dawn to spot the majestic one-horned rhinoceros—Chitwan's most iconic resident. Our expert naturalists guide you through prime rhino habitat.",
+    rating: 5,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1743504440802-5fdea460cd6d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2hpdHdhbiUyMG5hdGlvbmFsJTIwcmFwdGklMjBjYW5vZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=400",
+    title: "Rapti River Canoe",
+    details: "( Traditional Dugout • Sunrise )",
+    description:
+      "Glide silently along the Rapti River as marsh mugger crocodiles bask on the banks and kingfishers dive for breakfast. A peaceful journey through wetland paradise.",
+    rating: 5,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=500&q=80",
+    title: "Bengal Tiger Quest",
+    details: "( Full Day • Expert Tracker )",
+    description:
+      "Track the elusive Bengal tiger through sal forests and riverine corridors. While sightings aren't guaranteed, the thrill of the search reveals Chitwan's untamed wilderness.",
+    rating: 4,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1736528526419-7565c82f5f1f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2hpdHdhbiUyMG5hdGlvbmFsJTIwZWxlcGhhbmQlMjBicmVlZGluZyUyMGNlbnRlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=400",
+    title: "Elephant Breeding Center Visit",
+    details: "( Educational • Family Friendly )",
+    description:
+      "Learn about elephant conservation efforts and the lives of these gentle giants. Observe young calves and understand the bond between mahouts and elephants.",
+    rating: 4,
+  },
+  {
+    image:
+      "https://plus.unsplash.com/premium_photo-1661963996316-dcce07e0b0c3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2hpdHdhbiUyMG5hdGlvbmFsJTIwYmlyZHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=400",
+    title: "Bird Watching Expedition",
+    details: "( Morning • Binoculars Provided )",
+    description:
+      "Spot over 500 species of birds, from vibrant kingfishers to rare hornbills. Chitwan&apos;s wetlands and forests are a paradise for avid birders and photographers.",
+    rating: 5,
+  },
+  {
+    image:
+      "https://plus.unsplash.com/premium_photo-1726837268811-4bf23787b15d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2hpdHdhbiUyMG5hdGlvbmFsJTIwanVuZ2xlJTIwd2Fsa3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=400",
+    title: "Jungle Walk Adventure",
+    details: "( Guided • Close to Nature )",
+    description:
+      "Walk quietly through dense jungle trails with experienced naturalists. Discover fresh animal tracks, exotic flora, and the pure thrill of being deep in the wild.",
+    rating: 5,
+  },
+];
+
 
   return (
     <>
