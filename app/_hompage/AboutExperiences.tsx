@@ -42,7 +42,7 @@ const AboutExperiences = () => {
             <div className="flex-1 relative">
               <div className="rounded-2xl overflow-hidden h-[450px]">
                 <img
-                  src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&q=80"
+                  src="https://images.unsplash.com/photo-1683562373943-ea832988896b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmFyZGlhJTIwbmF0aW9uYWwlMjBwYXJrJTIwaG90ZWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500"
                   alt="Sauraha riverside view"
                   className="w-full h-full object-cover"
                 />
